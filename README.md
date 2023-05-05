@@ -31,21 +31,36 @@ Features Unit Description
 # Reference
 | No | Status | Name | Detail | Url |
 | --- | --- | --- | --- | --- |
-| 01 | to do | NOVO ESP – ELI5 - Performant Approaches [LB=0.451] | voteが高いcode | [url](https://www.kaggle.com/code/dschettler8845/novo-esp-eli5-performant-approaches-lb-0-451)|
-| 02 | to do | XGBoost - 5000 Mutations 200 PDB Files [LB 0.410] | voteが高いcode | [url](https://www.kaggle.com/code/cdeotte/xgboost-5000-mutations-200-pdb-files-lb-0-410)|
-| 03 | to do | NOVO ESP - EDA & Baseline | voteが高いEDA | [url](https://www.kaggle.com/code/dschettler8845/novo-esp-eda-baseline)|
-| 04 | to do | EDA Novozymes Enzyme Stability | scoreが高いcode | [url](https://www.kaggle.com/code/seyered/eda-novozymes-enzyme-stability)| 
+| 01 | to do | 🍇Simple EDA and baseline in 2mintues! | voteが高いcode_1 | [url]([https://www.kaggle.com/code/dschettler8845/novo-esp-eli5-performant-approaches-lb-0-451](https://www.kaggle.com/code/kimtaehun/simple-eda-and-baseline-in-2mintues))|
+| 02 | to do | PS3E14 EDA| Various models & Ensemble baseline | vote及びscoreが高いcode_2 | [url]([https://www.kaggle.com/code/cdeotte/xgboost-5000-mutations-200-pdb-files-lb-0-410)](https://www.kaggle.com/code/tetsutani/ps3e14-eda-various-models-ensemble-baseline)|
+| 03 | to do | PS3E14 | EDA, FE, Models, Ensemble for Starters | voteが高いcode_3 | [url]([https://www.kaggle.com/code/dschettler8845/novo-esp-eda-baseline](https://www.kaggle.com/datasets/shashwatwork/wild-blueberry-yield-prediction-dataset))|
+
 
 # やってみたいことリスト
 | No | Status | Name | Detail |
 | --- | --- | --- | --- |
 | 01| done | EDA | EDA|.  
 | 02| done | LightGBM | LightGBMでのbaseline|
-| 03| to do |  | |
+| 03| to do | reference読む | reference読む |
 | 04| to do |  | |
 
 
 # Log
+## 230505
+feature engineeringで下記を作製した。  
+ ` ` `
+join['total_bees'] = join['honeybee'] + join['bumbles'] + join['andrena'] + join['osmia']
+join['range_of_upperT'] = join['MaxOfUpperTRange'] - join['MinOfUpperTRange']
+join['range_of_lowerT'] = join['MaxOfLowerTRange'] - join['MinOfLowerTRange']
+join['diff_aveupper_lower'] = join['AverageOfUpperTRange'] - join['AverageOfLowerTRange']
+join['MaxOfUpperTRange*RainingDays'] = join['MaxOfUpperTRange'] * join['RainingDays']
+join['MinOfLowerTRange*RainingDays'] = join['MinOfLowerTRange'] * join['RainingDays']
+join['clonesize*total_bees'] = join['clonesize'] * join['total_bees']
+ ` ` `
+ただしスコアは伸びなかった。
+
 ## 230504
 EDAおよびlightGBMでbaselineを作製した。   
-今回のEDAはplotlyを使ってinteractiveに作製。
+今回のEDAはplotlyを使ってinteractiveに作製。   
+Public Score is 350.50063
+今回のEDAはplotlyを使ってinteractiveに作製。   
