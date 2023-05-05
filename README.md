@@ -48,7 +48,7 @@ Features Unit Description
 # Log
 ## 230505
 feature engineeringで下記を作製した。  
- '''
+```
 join['total_bees'] = join['honeybee'] + join['bumbles'] + join['andrena'] + join['osmia']
 join['range_of_upperT'] = join['MaxOfUpperTRange'] - join['MinOfUpperTRange']
 join['range_of_lowerT'] = join['MaxOfLowerTRange'] - join['MinOfLowerTRange']
@@ -56,7 +56,7 @@ join['diff_aveupper_lower'] = join['AverageOfUpperTRange'] - join['AverageOfLowe
 join['MaxOfUpperTRange*RainingDays'] = join['MaxOfUpperTRange'] * join['RainingDays']
 join['MinOfLowerTRange*RainingDays'] = join['MinOfLowerTRange'] * join['RainingDays']
 join['clonesize*total_bees'] = join['clonesize'] * join['total_bees']
-'''
+```
 ただしスコアは伸びなかった。
 
 ## 230504
