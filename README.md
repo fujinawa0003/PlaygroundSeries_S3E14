@@ -32,7 +32,7 @@ Features Unit Description
 | No | Status | Name | Detail | Url |
 | --- | --- | --- | --- | --- |
 | 01 | to do | 🍇Simple EDA and baseline in 2mintues! | voteが高いcode_1 | [url](https://www.kaggle.com/code/kimtaehun/simple-eda-and-baseline-in-2mintues)|
-| 02 | to do | PS3E14 EDA| Various models & Ensemble baseline | vote及びscoreが高いcode_2 | [url](https://www.kaggle.com/code/tetsutani/ps3e14-eda-various-models-ensemble-baseline)|
+| 02 | to do | PS3E14 EDA_Various models & Ensemble baseline | vote及びscoreが高いcode_2 | [url](https://www.kaggle.com/code/tetsutani/ps3e14-eda-various-models-ensemble-baseline)|
 | 03 | to do | EDA, FE, Models, Ensemble for Starters | voteが高いcode_3 | [url](https://www.kaggle.com/datasets/shashwatwork/wild-blueberry-yield-prediction-dataset)|
 | 03 | to do | PS S3E14, 2023 EDA and Submission | voteが高いcode_4 | [url](https://www.kaggle.com/code/sergiosaharovskiy/ps-s3e14-2023-eda-and-submission)|
 
@@ -41,11 +41,14 @@ Features Unit Description
 | --- | --- | --- | --- |
 | 01| done | EDA | EDA|.  
 | 02| done | LightGBM | LightGBMでのbaseline|
-| 03| to do | reference読む | reference読む |
+| 03| to do | reference04読む | XGBoostのbaseline |
 | 04| to do |  | |
 
 
 # Log
+## 230506
+reference04を読んでみた。スコアは高かったが、そのスコアはXGBoostのものではなさそう。
+
 ## 230505
 feature engineeringで下記を作製した。  
 ```
