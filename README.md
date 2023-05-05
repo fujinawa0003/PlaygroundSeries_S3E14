@@ -59,6 +59,10 @@ join['clonesize*total_bees'] = join['clonesize'] * join['total_bees']
 ```
 ただしスコアは伸びなかった。
 
+相関が強い。   
+[MaxOfUpperTRange, MinOfUpperTRange, AverageOfUpperTRange,MaxOfLowerTRange, MinOfLowerTRange,AverageOfLowerTRange]   
+[RainingDays, AverageRainingDays]
+
 ## 230504
 EDAおよびlightGBMでbaselineを作製した。   
 今回のEDAはplotlyを使ってinteractiveに作製。   
