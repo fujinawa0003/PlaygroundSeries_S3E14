@@ -46,6 +46,9 @@ Features Unit Description
 
 
 # Log
+## 230507
+reference02を色々と読み、lightGBMの条件を見比べていったところ'objective'をregression_l1にすると格段にスコアが良くなる傾向であった。
+
 ## 230506
 reference04を読んでみた。スコアは高かったが、そのスコアはXGBoostのものではなさそう。    
 
