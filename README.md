@@ -34,7 +34,9 @@ Features Unit Description
 | 01 | to do | 🍇Simple EDA and baseline in 2mintues! | voteが高いcode_1 | [url](https://www.kaggle.com/code/kimtaehun/simple-eda-and-baseline-in-2mintues)|
 | 02 | to do | PS3E14 EDA_Various models & Ensemble baseline | vote及びscoreが高いcode_2 | [url](https://www.kaggle.com/code/tetsutani/ps3e14-eda-various-models-ensemble-baseline)|
 | 03 | to do | EDA, FE, Models, Ensemble for Starters | voteが高いcode_3 | [url](https://www.kaggle.com/datasets/shashwatwork/wild-blueberry-yield-prediction-dataset)|
-| 03 | to do | PS S3E14, 2023 EDA and Submission | voteが高いcode_4 | [url](https://www.kaggle.com/code/sergiosaharovskiy/ps-s3e14-2023-eda-and-submission)|
+| 04 | to do | PS S3E14, 2023 EDA and Submission | voteが高いcode_4 | [url](https://www.kaggle.com/code/sergiosaharovskiy/ps-s3e14-2023-eda-and-submission)|
+| 05 | to do | [PS S3E14, 2023] First place winning solution | 一位の解法 | [url](https://www.kaggle.com/code/sergiosaharovskiy/ps-s3e14-2023-first-place-winning-solution)|
+
 
 # やってみたいことリスト
 | No | Status | Name | Detail |
@@ -46,6 +48,9 @@ Features Unit Description
 
 
 # Log
+## 230520
+
+
 ## 230507
 reference02を色々と読み、lightGBMの条件を見比べていったところ'objective'をregression_l1にすると格段にスコアが良くなる傾向であった。
 
